@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
-* free_stack - free a doubly linked lst
+* free_stack - free a doubly linked list
 * @head: head of the stack
 */
 void free_stack(stack_t *head)
