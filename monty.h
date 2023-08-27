@@ -8,12 +8,12 @@
 #include <string.h>
 #include <ctype.h>
 /**
- * struct stack_s - double linked list representation of a stack
+ * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
- * @prev: points to  previous element of the stack
- * @next: points to  next element of the stack 
+ * @prev: points to the previous element of the stack (or queue)
+ * @next: points to the next element of the stack (or queue)
  *
- * Descript: double linked list node structure
+ * Description: doubly linked list node structure
  * for stack, queues, LIFO, FIFO Holberton project
  */
 typedef struct stack_s
@@ -28,7 +28,7 @@ typedef struct stack_s
  * @file: pointer to monty file
  * @content: line content
  * @lifi: flag change stack <-> queue
- * Descript: carries val in the program
+ * Description: carries values through the program
  */
 typedef struct bus_s
 {
@@ -39,11 +39,11 @@ typedef struct bus_s
 }  bus_t;
 extern bus_t bus;
 /**
- * struct instruction_s - opcode - its function
+ * struct instruction_s - opcode and its function
  * @opcode: the opcode
  * @f: function to handle the opcode
  *
- * Descripti: opcode and function
+ * Description: opcode and its function
  * for stack, queues, LIFO, FIFO Holberton project
  */
 typedef struct instruction_s
